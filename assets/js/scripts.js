@@ -17,5 +17,6 @@ searchBar.addEventListener("keydown", (event) => {
             <p>${userInput}'s second ability is ${data.abilities[1].ability.name}</p>
             </section>`
             }) 
+            .catch (error => { console.error("Fetch error", error)
         }
 });
