@@ -12,6 +12,7 @@ searchBar.addEventListener("keydown", (event) => {
         }
         fetch(`https://pokeapi.co/api/v2/pokemon/${userInput}`)
             .then (response => { if (!response.ok) {
+                alert("Please provide an appopriate answer.")
                 throw new Error("Network response was not ok")
                 }; 
                 return response.json(); })
