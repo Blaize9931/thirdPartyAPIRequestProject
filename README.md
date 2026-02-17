@@ -6,3 +6,6 @@
 I made the decision to use the Pokemon API. This is due to an interest, which made the project more engaging.
 
 I used a fetch method within an event listener that was connected to an input. The fetch is evaluated and either throws an error or presents a pokemon.
+***
+GitHub pages link:
+https://blaize9931.github.io/thirdPartyAPIRequestProject/
